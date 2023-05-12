@@ -90,7 +90,7 @@ function search_for_user {
 		echo "Found a user: "
 		echo -e "${GREEN}$result${WHITE}"
 	else
-		echo -e "${RED}User not found{WHITE}"
+		echo -e "${RED}User not found${WHITE}"
 	fi
 }
 
